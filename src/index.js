@@ -1,5 +1,5 @@
 function refreshPage(){
-    document.getElementById("photo").src = "../src/3.png";
-    document.getElementById("registerBtn").value = "Register";
-    document.getElementById("loginBtn").value = "Login";
+    document.querySelector("img").src = "../src/3.png"; // DOM Access using Tag name
+    document.querySelector("#registerBtn").value = "Register";
+    document.querySelector(".loginBtn").value = "Login";
 }
