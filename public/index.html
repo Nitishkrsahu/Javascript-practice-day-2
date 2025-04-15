@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
     
+    <script type="text/javascript" src="../src/index.js"></script>
+</head>
+<body onload="refreshPage()">
+    <img width="200" height="200" id="photo">
+    <form>
+        <dl>
+            <dt>Register</dt>
+            <dd><input type="email"></dd>
+            <dd><input type="password"></dd>
+            <dd><input type="button" id="registerBtn"></dd>
+        </dl>
+    </form>
+
+    <form>
+        <dl>
+            <dt>Login</dt>
+            <dd><input type="email"></dd>
+            <dd><input type="button" id="loginBtn"></dd>
+        </dl>
+    </form>
 </body>
 </html>
