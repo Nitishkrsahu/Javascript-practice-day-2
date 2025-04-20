@@ -394,3 +394,79 @@
 // let _name = "A";
 // let $name = "B";
 // console.log(_name, $name);
+
+// function f1()
+// {
+//    var x;         // declaring
+//    x = 10;        // assignment
+//    if(x==10)
+//    {
+//       var y = 20;  // initialization
+//       y = 30;      // assigning
+//       var y = 40;  // shadowing
+//    }
+//    console.log(x,y);
+// }
+// f1();
+
+
+// "use strict";
+// function f1()
+// {
+//    x = 10;
+//    document.write("x=" + x);
+//    var x;     // hoisting
+// }
+// f1();
+
+
+// "use strict";
+// function f1()
+// {
+//    let x;     // declaring
+//    x = 10;    // assignment
+//    if(x==10)
+//    {
+//       let y = 20;     // initialization
+//       y = 30;         // assignment
+//       document.write("x=" + x  + "<br>y=" + y);
+//    }
+   
+// }
+// f1();
+
+
+// "use strict";
+// let x = 10;
+// var y = 20;
+// const z = 30;
+// function f1(){
+//     window.a = 50;
+//     console.log(x, y, z, a);
+// }
+// function f2(){
+//     console.log(x, y, z, a);
+// }
+// f1();
+// f2();
+
+// var x; var y; z = 10;
+// console.log("x=" + x + "\ny=" + y + "\nz=" + z);
+
+// var [x,y,z] = [10, 20, 30];
+// console.log("x=" + x + "\ny=" + y + "\nz=" + z);
+
+// "use strict";
+// var x=y=z=10;
+// console.log("x=" + x + "\ny=" + y + "\nz=" + z);
+
+
+// "use strict";
+// var y,z;
+// var x=y=z=10;
+// console.log("x=" + x + "\ny=" + y + "\nz=" + z);
+
+// "use strict";
+// var x=10, y=20, z=40;
+// console.log("x=" + x + "\ny=" + y + "\nz=" + z);
+
